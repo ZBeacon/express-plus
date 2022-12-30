@@ -1,0 +1,11 @@
+{
+    "name": "express-plus",
+    "version": "1.0.0",
+    "description": "Top-down, full security for express, with just one install.",
+    "license": "All Rights Reserved",
+    "repository": "ZBeacon/express-plus",
+    "main": "index.js",
+    "keywords": [
+      "toolkit"
+    ]
+}
