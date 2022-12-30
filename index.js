@@ -1,2 +1,11 @@
 const server = require("express");
-module.exports = server;
+const helmet = require("helmet");
+
+function lockdown(server, config = {}) {
+    
+    server.use(helmet());
+
+}
+module.exports = {
+    lockdown: lockdown
+};

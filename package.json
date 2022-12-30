@@ -1,14 +1,15 @@
 {
-    "name": "express-lockdown",
-    "version": "1.0.0",
-    "description": "Top-down, full security for express, with just one install.",
-    "license": "All Rights Reserved",
-    "repository": "ZBeacon/express-plus",
-    "main": "index.js",
-    "keywords": [
-      "toolkit"
-    ],
-    "dependencies": {
-      "express": "^4.18.2"
-    }
+  "name": "express-lockdown",
+  "version": "1.0.0",
+  "description": "Top-down, full security for express, with just one install.",
+  "license": "All Rights Reserved",
+  "repository": "ZBeacon/express-plus",
+  "main": "index.js",
+  "keywords": [
+    "toolkit"
+  ],
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
+  }
 }
