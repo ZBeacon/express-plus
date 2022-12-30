@@ -1,5 +1,2 @@
-//some code goes here
-
-module.exports = {
-  
-};
+const server = require("express");
+module.exports = server;
