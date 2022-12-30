@@ -1,5 +1,5 @@
 {
-    "name": "express-plus",
+    "name": "express-lockdown",
     "version": "1.0.0",
     "description": "Top-down, full security for express, with just one install.",
     "license": "All Rights Reserved",
