@@ -1,6 +1,6 @@
 {
   "name": "express-lockdown",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Top-down, full security for express, with just one install.",
   "license": "All Rights Reserved",
   "repository": "ZBeacon/express-plus",

@@ -14,7 +14,7 @@ const limiter = rateLimit({
 const AntiDDoS = require("ddos");
 const axios = require("axios");
 
-const { ddos: ddosProtection } = new AntiDDoS({ burst:15, limit:20 });
+const { express: ddosProtection } = new AntiDDoS({ burst:15, limit:20 });
 
 const { uuid } = require("uuidv4");
 const ray = uuid();
@@ -64,7 +64,7 @@ function lockdown(server, _config = {}) {
 
     if (config?.ddosProtection) {
         server.use(limiter); //stop ddoses
-        server.use(ddosProtection.express);
+        server.use(ddosProtection);
     };
 
     if (config?.debuggingOutboundLogs) {
