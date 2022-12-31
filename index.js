@@ -68,9 +68,9 @@ function lockdown(server, _config = {}) {
     };
 
     if (config?.debuggingOutboundLogs) {
-        server.use((request, response, next) => {
+        server.use(function (req, res, next) {
             cache.push(JSON.stringify({
-                data: [request.headers["x-forwarded-for"], Date.now(), ray]
+                data: [req.headers["x-forwarded-for"], Date.now(), ray]
             }));
             next();
         });
