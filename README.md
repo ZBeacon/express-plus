@@ -10,3 +10,4 @@ The config setting is optional, but it has these features as default:
 `compression: 1`  
 `helmet: 1`  
 `warnDDoS: 0`  
+[Licensing, Legal](https://zbeacon.org)
