@@ -1,6 +1,6 @@
 {
   "name": "express-lockdown",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "Top-down, full security for express, with just one install.",
   "license": "All Rights Reserved",
   "repository": "ZBeacon/express-plus",
@@ -19,6 +19,6 @@
     "express": "^4.18.2",
     "express-rate-limit": "^6.7.0",
     "helmet": "^6.0.1",
-    "uuidv4": "^6.2.13"
+    "uuid": "^9.0.0"
   }
 }

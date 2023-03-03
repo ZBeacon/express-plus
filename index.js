@@ -16,7 +16,7 @@ const axios = require("axios");
 
 const { express: ddosProtection } = new AntiDDoS({ burst:15, limit:20 });
 
-const { uuid } = require("uuidv4");
+const { v4: uuid } = require("uuid");
 const ray = uuid();
 
 let setFlag = 0;
